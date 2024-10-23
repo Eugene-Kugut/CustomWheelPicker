@@ -9,11 +9,11 @@ import Foundation
 import SwiftUI
 
 public struct CustomWheelPickerConfig {
-    let height: CGFloat
-    let rowHeight: CGFloat
-    let font: Font
-    let fontWeight: Font.Weight
-    let showDivider: Bool
+    public let height: CGFloat
+    public let rowHeight: CGFloat
+    public let font: Font
+    public let fontWeight: Font.Weight
+    public let showDivider: Bool
 }
 
 extension CustomWheelPickerConfig {
